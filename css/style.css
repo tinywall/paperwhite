@@ -47,7 +47,7 @@ img{max-width: 100%;width: 100%;}
                 -o-border-radius: 50%;
                 -ms-border-radius: 50%;
                 background-color: #eeeeee;
-                border:1px solid #32688B;
+                /*border:1px solid #32688B;*/
 }
 .header-img-transition{
         transition: background-image 0.5s;
