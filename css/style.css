@@ -20,6 +20,9 @@ body{
                 font-size: 16px;
                 color: #333333;
 }
+header,hgroup,nav,menu,main,section,article,aside,footer{
+    display: block;
+}
 .container{
                 /*margin-left: 70px;*/
                 margin-top: 50px;
@@ -47,7 +50,7 @@ img{max-width: 100%;width: 100%;}
                 -o-border-radius: 50%;
                 -ms-border-radius: 50%;
                 background-color: #eeeeee;
-                border:1px solid #32688B;
+                /*border:1px solid #32688B;*/
 }
 .header-img-transition{
         transition: background-image 0.5s;
@@ -70,7 +73,7 @@ img{max-width: 100%;width: 100%;}
 }
 .header-text{
                 /*font-family: 'Mr Dafoe', cursive;*/
-                font-size: 29px;
+                font-size: 25px;
                 color: #32688B;
 }
 .logo-text{
@@ -146,7 +149,7 @@ filter: grayscale(100%);
 .nextline{float: left;}
 .main-title{
     text-align: center;
-    font-size: 70px;
+    font-size: 65px;
     color: #474747;
     margin-bottom: 30px;
     padding-top: 10px;
