@@ -20,6 +20,9 @@ body{
                 font-size: 16px;
                 color: #333333;
 }
+header,hgroup,nav,menu,main,section,article,aside,footer{
+    display: block;
+}
 .container{
                 /*margin-left: 70px;*/
                 margin-top: 50px;

@@ -8,7 +8,7 @@
         <meta name="keywords" content="paperwhite, tinywall, minimal theme, responsive theme, minimal responsive theme " />
         <link rel="stylesheet" href="css/style.css" media="all" />
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0; user-scalable=no"/>
- 
+        <script src="js/init.js"></script>
         <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
         <link rel="icon" href="favicon.png" type="image/x-icon" /> -->
       
@@ -16,9 +16,9 @@
     <body>
         <a href="https://github.com/tinywall/paperwhite"><img style="position: absolute; top: 0; right: 0; border: 0;width:149px;height:149px;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
         <div class="container">
-            <div class="sidebar">
+            <aside class="sidebar">
                 <div class="col1">
-                    <div class='header'>
+                    <header class='header'>
                         <div class='header-img-container header-img-transition'>
                             <!--<div class='logo-text'>A</div>-->
                             <img src="images/logo.png" class="header-img toggle-img">
@@ -30,7 +30,7 @@
 						<div class='desc'>
 							Some nonsense tagline about your website.
 						</div>
-                    </div>
+                    </header>
                     <nav>
                         <ul class="nav-list">
                             <li><a href="index.htm" class="active nav-link" >Home</a></li>
@@ -43,36 +43,36 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
-            <div class="content">
+            </aside>
+            <main class="content">
                 <div class='main-title'>Hello World!</div>
                 <div class="col2">
                         <div class="col-content">
-                            <div class='section section-about'>
+                            <section class='section section-about'>
                                 <div class="title"><a name="about">I am,</a></div>
-                                Paperwhite, a minimal responsive theme for your personal website. With content first in mind, I provide you with a website as clean as your heart. :p
-                            </div>
+                                Paperwhite, a minimal responsive theme for your personal website made with love by <a href='http://tinywall.com'>Tinywall</a>. With content first in mind, I provide you with a website as clean as your heart. :p
+                            </section>
                             
-                            <div class='section section-about'>
+                            <section class='section section-about'>
 								Cut the crap of doing some trial and error with media queries &amp; fonts; Just <a href='https://github.com/tinywall/paperwhite'>download</a> the paperwhite and create your own minimal responsive website.
-                            </div>
+                            </section>
                            
-                           <div class='section section-interest'>
+                           <section class='section section-interest'>
                                 <div class="title"><a name="interest">I like,</a></div>
                                 Open source, So I made myself available to everyone for free. You can fork, clone or whatever you want to do with me. I'm all yours.
                                 <div class='clear'></div>
-                            </div>
+                            </section>
                         </div>
                 </div>
                 <div class="col3">
                         <div class="col-content">
-                            <div class='section section-skills'>
+                            <section class='section section-skills'>
                             <div class="title"><a name="skills">I know,</a></div>
 								How to change my look to attract users with different screen sizes whether its mobile or tablet or computer. :) <br/>
 								Yes, They call this flirty concept as 'RESPONSIVE WEB DESIGN'.
-                            </div>
+                            </section>
                           
-                            <div class='section section-portfolio'>
+                            <section class='section section-portfolio'>
                                 <div class="title"><a name="portfolio" href="#" target="_blank">I use,</a></div>
                                <ul>
                                     <li>HTML5</li>
@@ -81,12 +81,12 @@
                                     <li><a href='http://jquery.com/' target='_blank'>jQuery</a></li>
                                     <li><a href='http://www.google.com/fonts/specimen/Titillium+Web'  target='_blank'>Titillium Web font</a></li>
                                 </ul>
-                            </div>
+                            </section>
                         </div>                 
                 </div>
                 <div class="col4">
                     <div class="col-content">
-                        <div class='section section-contact'>
+                        <section class='section section-contact'>
                             <div class="title"><a name="contact">Get in touch</a></div>
                             <div class="social">
                                 <a target="_blank" href="#"><img src="images/twitter.png"></a>
@@ -95,20 +95,23 @@
                                 <a target="_blank" href="#"><img src="images/google.png"></a>
                                 <a target="_blank" href="#"><img src="images/flickr.png"></a>
                             </div>
-                        </div>
+                        </section>
                       
-                        <div class='section section-contact'>
+                        <section class='section section-contact'>
                             youremail [at] example.com<br/>
                             +01-23456789
-                        </div>
-                        <div class='section'>
-                            Some crapy text or whatever you want in the footer.
-                        </div>
-                      
-                        <div class="copyright">Your Name &copy; 2013</div>
+                        </section>
+
+                        <footer>
+                            <section class='section'>
+                                Some crapy text or whatever you want in the footer.
+                            </section>
+                          
+                            <div class="copyright">Your Name &copy; 2013</div>
+                        </footer>
                     </div>
                 </div>
-            </div>
+            </main>
             <div class="clear"></div>
         </div>
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
